@@ -1,8 +1,8 @@
 //
-//  SwiftUIView.swift
-//  Spotify
+//  Artist.swift
+//  MusicApp
 //
-//  Created by Joseph Wang on 2023/6/19.
+//  Created by Joseph Wang on 2021/8/30.
 //
 
 import Foundation
@@ -24,3 +24,7 @@ struct SongItem: Identifiable {
     var isLike: Bool = false
 
 }
+
+
+
+
