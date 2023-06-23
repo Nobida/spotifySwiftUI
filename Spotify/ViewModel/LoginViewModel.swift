@@ -33,7 +33,7 @@ class LoginViewModel: NSObject, ObservableObject {
                     print(self.error)
                     return
                 }
-                print("success")
+                print("successaha")
                 UserDefaults.standard.set(true, forKey: "status")
                 NotificationCenter.default.post(name: NSNotification.Name("status"), object: nil)
             }
