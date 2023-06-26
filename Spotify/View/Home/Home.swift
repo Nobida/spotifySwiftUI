@@ -16,6 +16,8 @@ struct HomeView: View {
         ScrollView(showsIndicators: false) {
             VStack(alignment: .leading) {
 
+              RecentSong()
+              LikeSong()
               RecommendSong()
             }.padding(.bottom, 50)
 
